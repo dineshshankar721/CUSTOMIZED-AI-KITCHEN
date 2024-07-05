@@ -1,4 +1,4 @@
-# Customized_AI_Kitchen
+# Customized_AI_Kitchen_india
 
 
 ### Intel Project
@@ -15,7 +15,7 @@ Customized_AI_Kitchen is a Flask-based web application that helps users identify
 Our custom dataset consists of images categorized into 36 distinct classes. These classes represent various ingredients commonly used in cooking. The class names include:
 
 - Asafoetida
-- Brown rice
+- black chiya seeds 
 - Butter
 - Cabbage
 - Capsicum
@@ -28,21 +28,23 @@ Our custom dataset consists of images categorized into 36 distinct classes. Thes
 - Eggplant
 - Fenugreek leaves
 - Fenugreek seeds
-- Garlic
-- Ginger
+- Garlic paste
+- Ginger paste
 - Green chili
-- Jaggery
+- Jaggery powder
 - Lemon
 - Mango
 - Milk
 - Mustard seeds
 - Onion
+- palm oil
 - Raw mango
 - Red chili powder
 - Ridge gourd skin
 - Rosemary
 - Saffron strands
 - Sugar
+- salt
 - Sunflower oil
 - Tamarind
 - Tea leaves
@@ -50,6 +52,7 @@ Our custom dataset consists of images categorized into 36 distinct classes. Thes
 - Turmeric powder
 - White lentils
 - Yellow corn meal flour
+- And so all meal making ingredients
 
 The dataset is organized into three main directories:
 
