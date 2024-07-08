@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- Recipe Page -->
+    <div class="jumbotron content-box">
+        <h2 class="mb-4">Ingredients</h2>
+        <div>{{ ingredients_table|safe }}</div>
+
+        <h2 class="mb-4">Recipe Instructions</h2>
+        <ol>
+            {% for sentence in sentences %}
+                <li>{{ sentence }}</li>
+            {% endfor %}
+        </ol>
+
+        <h2 class="mb-4">Images with Predictions</h2>
+        <div class="image-grid">
+            {% for image_url, prediction in images_with_predictions %}
+                <div class="image-item">
+                    <p>{{ prediction }}</p>
+                    <img src="{{ image_url }}" alt="{{ prediction }}" class="img-fluid">
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="mt-4">
+            <a href="{{ url_for('index') }}">
+                <button class="btn btn-secondary">Back to Start</button>
+            </a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block body_class %}result-bg{% endblock %}
