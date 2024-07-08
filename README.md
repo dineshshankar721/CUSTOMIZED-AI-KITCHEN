@@ -154,4 +154,4 @@ Customized_AI_Kitchen/
 
 ## Tutorial Video
 * **Please follow the video closely.** <br>
-[Intel Project Running Tutorial](https://drive.google.com/file/d/1s9jeuqWgXQ4r9CiFl2DblQPMfWokaXQj/view?usp=drive_link)
+[Intel Project Running Tutorial]
