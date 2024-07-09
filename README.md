@@ -70,7 +70,7 @@ This well-structured dataset ensures comprehensive coverage of each class, enabl
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/HarshwardhanJain/Customized_AI_Kitchen.git
+git clone
 cd Customized_AI_Kitchen
 ```
 
